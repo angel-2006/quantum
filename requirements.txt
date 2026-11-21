@@ -1,0 +1,8 @@
+# Needs Python 3.11 or 3.12 (Mitiq does not support 3.13 yet)
+qiskit>=2.0
+qiskit-aer>=0.17
+mitiq>=1.0
+numpy
+pandas
+matplotlib
+ply        # needed by Cirq's QASM importer, which Mitiq uses to read Qiskit circuits

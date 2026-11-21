@@ -1,0 +1,14 @@
+# environments (large, machine-specific)
+.venv/
+.venv-1/
+.venv312/
+
+# editor settings
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# scratch output from quick test runs
+results_quick/
